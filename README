@@ -1,3 +1,4 @@
+Huffman.c
 Jared Peter-Contesse (jared.peter.contesse@gmail.com)
 
 This is an example of an implementation of the huffman coding algorithm
@@ -5,10 +6,10 @@ to compress/decompress files. The algorithm finds the optimal binary
 replacement of each charater in a file using a table of frequency counts
 and huffman tree. This code sample can both encode and decode files.
 
-usage: hencode infile outfile
+usage: hencode [infile] [outfile]
 	infile: The name of the file that will be compressed
 	outfile: The name of the compressed file that will be created
 
-usage: hdecode infile outfile
+usage: hdecode [infile] [outfile]
 	infile: The name of the compressed huffman file
 	outfile: The name of the decompressed file that will be created
